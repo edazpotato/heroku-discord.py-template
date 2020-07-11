@@ -17,3 +17,4 @@ A template for people who want to use heroku with their discord.py projects.
 - If you want to have persistant user data, you will need to use an addon (which costs money) or have your databases hosted externaly since data does not persist between builds on heroku
 - If you are storing your token, or something else in enviroment variables, you will need to go to `settings > reveal config vars` and add them there
 - You shouldn't upload you token or any sensitve data to github, as anyone can see it
+- You can change [runtime.txt](/runtime.txt) to have the version of python that your app is running on
